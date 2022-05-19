@@ -3,7 +3,7 @@ const webpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
  
 module.exports = {
- 
+    distDir: 'build',
     name: 'react-project',
     
     mode: 'development',
